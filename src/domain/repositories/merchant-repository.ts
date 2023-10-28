@@ -1,4 +1,4 @@
-import {MerchantAccount} from "@/domain/entities";
+import { MerchantAccount } from "@/domain/entities";
 
 export interface MerchantRepository {
   save(MerchantAccount: MerchantAccount): Promise<void>;
